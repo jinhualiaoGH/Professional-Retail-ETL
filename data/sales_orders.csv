@@ -1,0 +1,11 @@
+OrderID,OrderDate,CustomerName,CustomerEmail,Phone,ProductName,Category,Quantity,UnitPrice,Region,SalesRep
+1001,2026-01-02,John Smith,john.smith@email.com,7031112222,Laptop,Electronics,2,1200,East,Alice
+1002,2026-01-03,Mary White,mary.white@email.com,7032223333,Mouse,Electronics,5,25,West,Bob
+1003,2026-01-04,David Chen,david.chen@email.com,7033334444,Keyboard,Electronics,3,75,North,Alice
+1004,2026-01-05,Linda Brown,linda.brown@email.com,7034445555,Monitor,Electronics,2,300,South,Chris
+1005,2026-01-06,Robert Lee,robert.lee@email.com,7035556666,Desk,Furniture,1,450,East,Bob
+1006,2026-01-07,Susan Green,susan.green@email.com,7036667777,Chair,Furniture,4,150,West,Chris
+1007,2026-01-08,James Wilson,james.wilson@email.com,7037778888,Printer,Office,1,250,North,Alice
+1008,2026-01-09,Emily Davis,emily.davis@email.com,7038889999,Paper,Office,10,8,South,Bob
+1009,2026-01-10,Michael Wang,michael.wang@email.com,7039990000,Laptop,Electronics,1,1200,East,Chris
+1010,2026-01-11,Nancy Miller,nancy.miller@email.com,7031010101,Monitor,Electronics,3,300,West,Alice
