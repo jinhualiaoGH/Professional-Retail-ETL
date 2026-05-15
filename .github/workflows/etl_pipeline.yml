@@ -1,3 +1,21 @@
-git add .
-git commit -m "Restore GitHub Actions workflow"
-git push
+name: ETL Pipeline Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test-etl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - run: pytest
