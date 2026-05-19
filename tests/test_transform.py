@@ -24,8 +24,9 @@ def test_transform_sales_data():
 
     df = pd.DataFrame(data)
 
-    result = transform_sales_data(df)
+    result, error_df = transform_sales_data(df)
 
     assert result.iloc[0]["CustomerName"] == "John Smith"
     assert result.iloc[0]["CustomerEmail"] == "john@email.com"
     assert result.iloc[0]["TotalAmount"] == 2000
+    assert error_df.empty
